@@ -1,17 +1,6 @@
 @extends('layouts.frontend')
 @section('title', 'User Profile')
 @section('content')
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})">
-		<div class="container-fluid">
-			<div class="breadcrumb-content text-center">
-				<h2>Register</h2>
-				<ul>
-					<li><a href="#">home</a></li>
-					<li>register</li>
-				</ul>
-			</div>
-		</div>
-	</div>
 	<div class="shop-page-wrapper shop-page-padding ptb-100">
 		<div class="container-fluid">
 			@if(session()->has('message'))

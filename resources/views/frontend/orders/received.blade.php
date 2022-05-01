@@ -1,18 +1,6 @@
 @extends('layouts.frontend')
 @section('title', 'Order Detail')
 @section('content')
-	<!-- header end -->
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/breadcrumb.jpg') }})">
-		<div class="container">
-			<div class="breadcrumb-content text-center">
-				<h2>Order Received</h2>
-				<ul>
-					<li><a href="{{ url('/') }}">home</a></li>
-					<li>Order Received</li>
-				</ul>
-			</div>
-		</div>
-	</div>
 	<!-- checkout-area start -->
 	<div class="cart-main-area  ptb-100">
 		<div class="container">
